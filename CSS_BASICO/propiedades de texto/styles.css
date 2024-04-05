@@ -1,0 +1,16 @@
+p {
+    color: blue;
+    font-family: Redit;
+    font-size: 13px;
+    font-weight: 600;
+    font-style: oblique;
+    text-align: justify;
+    text-decoration: none;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+h1 {
+    text-align: center;
+}
