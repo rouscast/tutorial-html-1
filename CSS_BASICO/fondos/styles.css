@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+    margin: 0;
+}
+
+.box {
+    width: 100%;
+    height: 150px;
+    margin: 20px;
+    position: absolute;
+    background-image: url();
+    background-position: center;
+    background: url("https://img.freepik.com/foto-gratis/primer-disparo-flor-morada_181624-25863.jpg?t=st=1712782253~exp=1712785853~hmac=b6c3e7e2d534a402ca6dd30348cdc3f48e9b53c9ab6d03663e0f0f41cd7edc81&w=740") top / cover fixed #6fa;
+    margin: 0;
+}
+
+.opaco {
+    height: 100%;
+    width: 100%;
+    background-color: #000a;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+}
