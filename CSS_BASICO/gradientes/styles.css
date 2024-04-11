@@ -1,0 +1,19 @@
+body {
+    background-color: red;
+    margin: 0;
+}
+.box {
+    height: 400px;
+    background: conic-gradient(green, #000a);
+    width:400px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+h1 {
+    text-align:center ;
+    margin: 0;
+    font-family: sans-serif;
+    padding: 20px;
+}
