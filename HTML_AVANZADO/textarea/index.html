@@ -20,6 +20,23 @@
                 <label for="email">Email</label>
                 <input type="email" placeholder="ejemplo@gmail.com" id="email">
             </div>
+            <div class="form_input">
+                <label for="nombre">Tipo de usuario</label>
+                    <select name="type-of-user">
+                        <option value="user1">Seguidor</option>
+                        <option value="user2">Empresa</option>
+                        <option value="user3">Otros</option>
+                    </select>
+            </div>
+            <div class="form_input">
+                <label for="nombre">Referente</label>
+                    <input list="referente" name="referente">
+                    <datalist id="referente" >
+                        <option value="user1">Una empresa</option>
+                        <option value="user2">Un amigo</option>
+                        <option value="user3">Otros</option>
+                    </datalist>
+            </div>
             <div>
                 <label for="mensaje">Mensaje</label>
                 <textarea rows="8" placeholder="Dejá tu mensaje..." id="mensaje"></textarea>

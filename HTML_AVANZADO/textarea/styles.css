@@ -14,7 +14,7 @@ form {
     margin-top: 60px;
 }
 
-input, textarea {
+input, textarea, select {
     width: 100%;
     box-sizing: border-box;
     margin-top: 10px;
@@ -26,6 +26,10 @@ input, textarea {
     border-radius: 4px;
     color: #eee;
     margin-bottom: 10px;
+}
+
+option {
+    background-color: #222;
 }
 
 h2 {
