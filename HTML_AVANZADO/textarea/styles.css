@@ -2,7 +2,7 @@ body {
     margin:0;
     font-family: sans-serif;
     color: #eee;
-    background-color: #222;
+    background: linear-gradient(#222, rgb(31, 21, 21));;
 }
 
 form {
@@ -53,4 +53,16 @@ textarea {
 label {
     font-size: 0.9em;
     margin-top: 2px;
+}
+
+fieldset {
+    border-radius: 5px;
+    border:1px solid #666;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    padding: 0 6px;
+    color: #666;
 }
