@@ -66,3 +66,12 @@ legend {
     padding: 0 6px;
     color: #666;
 }
+
+a {
+    color:#69f;
+    text-decoration: none;
+}
+
+.checkbox {
+    width: 4%;
+}
