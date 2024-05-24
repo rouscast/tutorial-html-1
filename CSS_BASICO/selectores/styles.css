@@ -1,7 +1,41 @@
-p {
+/* p {
     color: aqua;
-}
+} */
 
 .faltante {
     color: brown;
+}
+
+/* SELECTOR POR ATRIBUTO*/
+/* img[src="../sombras/prueba.jpeg"] {
+    width: 100%;
+} */
+/* todas las imagenes que terminen con jpeg */
+/* img[src$="jpeg"] {
+    width: 100%;
+} */
+
+/* todas las imagenes que inicien con un valor */
+img[src^="../sombras/pr"] {
+    width: 100%;
+}
+
+/* SELECTOR POR HIJO DIRECTO*/
+li > em {
+    color: red;
+}
+
+/* SELECTOR DE HERMANO ADYACENTE*/
+/* h1 + p {
+    color:blue;
+} */
+
+/* SELECTOR DE HERMANOS GENERALES*/
+
+/* h1 ~ p {
+    color:blue;
+} */
+
+h1 + p + P {
+    color:blue;
 }
